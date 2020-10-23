@@ -1,0 +1,7 @@
+var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+import styled from '@emotion/styled';
+export var Container = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  width: 100%;\n  box-sizing: border-box;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto;\n\n  @media (min-width: 576px) {\n    max-width: 576px;\n  }\n\n  /* Medium devices (tablets, 768px and up) */\n  @media (min-width: 768px) {\n    max-width: 768px;\n  }\n\n  /* Large devices (desktops, 992px and up) */\n  @media (min-width: 992px) {\n    max-width: 992px;\n  }\n\n  /* /xtra large devices (large desktops, 1200px and up) */\n  @media (min-width: 1200px) {\n    max-width: 1200px;\n  }\n"], ["\n  width: 100%;\n  box-sizing: border-box;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto;\n\n  @media (min-width: 576px) {\n    max-width: 576px;\n  }\n\n  /* Medium devices (tablets, 768px and up) */\n  @media (min-width: 768px) {\n    max-width: 768px;\n  }\n\n  /* Large devices (desktops, 992px and up) */\n  @media (min-width: 992px) {\n    max-width: 992px;\n  }\n\n  /* /xtra large devices (large desktops, 1200px and up) */\n  @media (min-width: 1200px) {\n    max-width: 1200px;\n  }\n"])));
+var templateObject_1;

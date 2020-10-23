@@ -1,0 +1,16 @@
+var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
+    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
+    return cooked;
+};
+import { css, Global } from '@emotion/core';
+import { useTheme } from 'emotion-theming';
+import { mediaQuery } from './mediaQuery';
+var style = function (_a) {
+    var color = _a.color, font = _a.font;
+    return css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  /* Paragraphs & Anchors */\n\n  /* Setting this in HTML so divs, spans and other elements benefit from these rules */\n  html {\n    color: ", ";\n    font-family: ", ";\n    font-size: 18px;\n    line-height: 24px;\n    ", " {\n      font-size: 20px;\n      line-height: 28px;\n    }\n  }\n  ::selection {\n    background-color: ", ";\n    color: ", ";\n  }\n  :not(button) > a {\n    color: ", ";\n  }\n\n  /* Headers */\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6 {\n    color: ", ";\n    font-family: ", ";\n  }\n\n  h1 {\n    font-size: 36px;\n    line-height: 42px;\n    ", " {\n      font-size: 48px;\n      line-height: 56px;\n    }\n  }\n  h2 {\n    font-size: 28px;\n    line-height: 32px;\n    ", " {\n      font-size: 32px;\n      line-height: 36px;\n    }\n  }\n  h3 {\n    font-size: 20px;\n    line-height: 24px;\n    ", " {\n      font-size: 28px;\n      line-height: 32px;\n    }\n  }\n  h4 {\n    font-size: 20px;\n    line-height: 24px;\n  }\n  h5 {\n    font-family: ", ";\n    text-transform: uppercase;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 18px;\n    color: ", ";\n    letter-spacing: 0.08rem;\n  }\n"], ["\n  /* Paragraphs & Anchors */\n\n  /* Setting this in HTML so divs, spans and other elements benefit from these rules */\n  html {\n    color: ", ";\n    font-family: ", ";\n    font-size: 18px;\n    line-height: 24px;\n    ", " {\n      font-size: 20px;\n      line-height: 28px;\n    }\n  }\n  ::selection {\n    background-color: ", ";\n    color: ", ";\n  }\n  :not(button) > a {\n    color: ", ";\n  }\n\n  /* Headers */\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6 {\n    color: ", ";\n    font-family: ", ";\n  }\n\n  h1 {\n    font-size: 36px;\n    line-height: 42px;\n    ", " {\n      font-size: 48px;\n      line-height: 56px;\n    }\n  }\n  h2 {\n    font-size: 28px;\n    line-height: 32px;\n    ", " {\n      font-size: 32px;\n      line-height: 36px;\n    }\n  }\n  h3 {\n    font-size: 20px;\n    line-height: 24px;\n    ", " {\n      font-size: 28px;\n      line-height: 32px;\n    }\n  }\n  h4 {\n    font-size: 20px;\n    line-height: 24px;\n  }\n  h5 {\n    font-family: ", ";\n    text-transform: uppercase;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 18px;\n    color: ", ";\n    letter-spacing: 0.08rem;\n  }\n"])), color.ink.normal.tint, font.sans, mediaQuery.medium, color.primary.dark.tint, color.primary.dark.contrast, color.primary.normal.tint, color.ink.dark.tint, font.accent, mediaQuery.medium, mediaQuery.medium, mediaQuery.medium, font.sans, color.ink.light.tint);
+};
+export var GlobalTextStyle = function () {
+    var theme = useTheme();
+    return <Global styles={style(theme)}/>;
+};
+var templateObject_1;
